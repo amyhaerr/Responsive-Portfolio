@@ -109,6 +109,18 @@ body {
     border-top: 8px solid #4aaaa5;
     height: 50px;
   }
+
+  /* sidebar */
+  .sidebar {
+    float: right;
+    width: 100%;
+    max-width: 270px;
+    padding: 30px;
+    margin-bottom: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+  }
+  
   
   h3, h2 {
     padding-bottom: 20px;
@@ -180,6 +192,7 @@ body {
   
   #contact-form ul {
     margin-bottom: 20px;
+    list-style: none;
   }
   
   #contact-form li {
@@ -216,8 +229,31 @@ body {
     border: 0 none;
   }
   
-  @media screen (max-width: 980px);
+  @media screen (max-width: 980px) {
+    p {
+        font-size: 1.75rem;
+        line-height: 1.75;
+      }
+    }
 
-  @media screen (max-width: 768px);
+  @media screen (max-width: 768px) {
+    p {
+        font-size: 1.5rem;
+        line-height: 1.5;
+      }
+    #masthead {
+
+    }
+
+  }
   
-  @media screen (max-width: 640px);
+  @media screen (max-width: 640px) {
+      p {
+          font-size: 1.25rem;
+         
+        }
+      #masthead {
+
+      }
+    }
+
