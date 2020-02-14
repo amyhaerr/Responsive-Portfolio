@@ -229,31 +229,18 @@ body {
     border: 0 none;
   }
   
-  @media screen (max-width: 980px) {
-    p {
-        font-size: 1.75rem;
-        line-height: 1.75;
-      }
-    }
+  @media screen and (max-width: 980px) {}
 
-  @media screen (max-width: 768px) {
-    p {
-        font-size: 1.5rem;
-        line-height: 1.5;
-      }
-    #masthead {
+  @media screen and (max-width: 768px) {}
 
-    }
-
-  }
   
-  @media screen (max-width: 640px) {
-      p {
-          font-size: 1.25rem;
-         
-        }
-      #masthead {
-
-      }
+  @media screen and (max-width: 640px) {
+      #masthead {position: static;}
+      #logo {width: 100%;}
+      nav {float: none;
+      text-align: center;}
+      #main-container {margin-top: 0;
+      max-width: 560px;
+      padding-top: 20px;}
     }
 
